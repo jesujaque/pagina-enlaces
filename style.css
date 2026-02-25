@@ -1,0 +1,42 @@
+body {
+    background-color: #0f172a; /* Azul oscuro tipo VS Code */
+    color: white;
+    font-family: 'Segoe UI', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.container {
+    width: 90%;
+    max-width: 400px;
+    text-align: center;
+}
+
+.link-card {
+    display: block;
+    background: #1e293b;
+    margin: 15px 0;
+    padding: 15px;
+    text-decoration: none;
+    color: #3ef838; /* Azul cyan reactivo */
+    border: 1px solid #334155;
+    border-radius: 8px;
+    transition: transform 0.2s, background 0.2s;
+}
+
+.link-card:hover {
+    transform: scale(1.05);
+    background: #334155;
+}
+
+.profile-img {
+    width: 150px;      /* Ancho de la caja */
+    height: 150px;     /* Alto de la caja */
+    border-radius: 50%; /* Truco de ingeniero: 50% hace que la caja sea circular */
+    object-fit: cover; /* Evita que la foto se estire o se deforme */
+    border: 3px solid #65f838; /* Un borde bonito */
+    padding: 5px;      /* Espacio entre la foto y el borde */
+}
