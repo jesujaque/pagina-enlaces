@@ -31,6 +31,11 @@ body {
     transform: scale(1.05);
     background: #334155;
 }
+#contact {
+    margin-top: 20px;
+    font-size: 0.9em;
+    color: #c93eec; /* Gris claro para el contacto */
+}
 
 .profile-img {
     width: 150px;      /* Ancho de la caja */
