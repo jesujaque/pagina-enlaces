@@ -31,9 +31,9 @@ body {
     transform: scale(1.05);
     background: #334155;
 }
-#contact {
-    margin-top: 20px;
-    font-size: 0.9em;
+#contact,#discord {
+   
+    
     color: #c93eec; /* Gris claro para el contacto */
 }
 
