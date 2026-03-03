@@ -21,21 +21,18 @@ body {
     margin: 15px 0;
     padding: 15px;
     text-decoration: none;
-    color: #f8eb38; /* Azul cyan reactivo */
+    color: #ffffff; /* Azul cyan reactivo */
     border: 1px solid #334155;
     border-radius: 8px;
     transition: transform 0.2s, background 0.2s;
+    font-weight: bold;
 }
 
 .link-card:hover {
     transform: scale(1.05);
-    background: #334155;
+    background: #364458;
 }
-#contact,#discord {
-   
-    
-    color: #c93eec; /* Gris claro para el contacto */
-}
+
 
 .profile-img {
     width: 150px;      /* Ancho de la caja */
@@ -47,7 +44,7 @@ body {
 }
 
 .profile-img:hover {
-    border-color: #8fe275; /* Cambia el color del borde al pasar el mouse */
+    border-color: #65f838; /* Cambia el color del borde al pasar el mouse */
     transform: scale(1.1); /* Aumenta el tamaño de la imagen al pasar el mouse */
     transition: transform 0.2s, border-color 0.2s; /* Suaviza la transición */
     content: url('pp-discord2.png');
@@ -64,4 +61,28 @@ body {
     margin-top: 20px;
     font-size: 0.8em;
     color: #8baa82; /* Gris claro para la posdata */
+}
+
+#twitch {
+    background: #9146ff; /* Color de Twitch */
+}
+
+#youtube {
+    background: #ff0000; /* Color de YouTube */
+}
+
+#twitter {
+    background: #1da1f2; /* Color de Twitter */
+}
+
+#github {
+    background: #333; /* Color de GitHub */
+}
+
+#instagram {
+    background: #e1306c; /* Color de Instagram */
+}
+
+#tiktok {
+    background: #000000; /* Color de TikTok */
 }
