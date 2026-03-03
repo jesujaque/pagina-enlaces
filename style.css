@@ -35,6 +35,7 @@ body {
 
 
 .profile-img {
+    margin-top: 40px;
     width: 150px;      /* Ancho de la caja */
     height: 150px;     /* Alto de la caja */
     border-radius: 10%; /* 50% hace que la caja sea circular */
